@@ -19,5 +19,5 @@ return [
     ],
     'total' => file_get_contents(__DIR__ . '/html-blocks/sanctuary-project/total.html'),
     'video' => '/storage/videos/superdogs.mp4',
-    'image' => '/storage/images/superdogs-logo-en.png'
+    'image' => '/storage/images/superdogs-logo.png'
 ];

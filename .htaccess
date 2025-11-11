@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^superdogssanctuary.org$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.superdogssanctuary.org$
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) /public/$1 [L]

@@ -18,6 +18,6 @@ return [
         'items' => json_decode(file_get_contents(__DIR__ . '/html-blocks/sanctuary-project/budget.json'))
     ],
     'total' => file_get_contents(__DIR__ . '/html-blocks/sanctuary-project/total.html'),
-    'video' => '/storage/videos/superdogs.mp4',
+    'video' => '/storage/videos/super-dogs.mp4',
     'image' => '/storage/images/superdogs-logo.png'
 ];

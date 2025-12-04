@@ -7,3 +7,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/home', function () {
     return require(dirname(__DIR__) . "/resources/sanctuary-project.php");
 });
+
+
+Route::get('/news', function () {
+    return view('news')->render();
+});

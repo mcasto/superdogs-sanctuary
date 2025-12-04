@@ -5,6 +5,7 @@ export const useStore = defineStore(
   "store",
   () => {
     const state = {
+      news: ref(null),
       sanctuary: ref(null),
     };
     const getters = {};
@@ -14,7 +15,7 @@ export const useStore = defineStore(
   },
   {
     persist: {
-      key: "default-key",
+      key: "superdogs-sanctuary",
     },
   }
 );

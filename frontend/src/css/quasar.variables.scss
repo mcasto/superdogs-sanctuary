@@ -1,25 +1,48 @@
-// Quasar SCSS (& Sass) Variables
-// --------------------------------------------------
-// To customize the look and feel of this app, you can override
-// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+// Core brand color
+$brand-main: #1F93A8;
 
-// Check documentation for full list of Quasar variables
+// --- Tints (lighter variations) ---
+$brand-tint-10: mix(white, $brand-main, 10%); // #3aa3b5-ish
+$brand-tint-20: mix(white, $brand-main, 20%);
+$brand-tint-30: mix(white, $brand-main, 30%);
+$brand-tint-40: mix(white, $brand-main, 40%);
 
-// Your own variables (that are declared here) and Quasar's own
-// ones will be available out of the box in your .vue/.scss/.sass files
+// --- Shades (darker variations) ---
+$brand-shade-10: mix(black, $brand-main, 10%); // #1b8294-ish
+$brand-shade-20: mix(black, $brand-main, 20%);
+$brand-shade-30: mix(black, $brand-main, 30%);
+$brand-shade-40: mix(black, $brand-main, 40%);
 
-// It's highly recommended to change the default colors
-// to match your app's branding.
-// Tip: Use the "Theme Builder" on Quasar's documentation website.
+// --- Accents (adjacent colors on the wheel) ---
+$brand-accent-green: #1fa87f; // teal-green accent
+$brand-accent-blue: #1f6fa8; // deeper blue accent
+$brand-accent-pop: #1fc4a8; // lighter, punchier aqua
 
-$primary   : #1976D2;
-$secondary : #26A69A;
-$accent    : #9C27B0;
+// --- Complementary + analogs ---
+$brand-complimentary: #a81f33; // opposite on color wheel
+$brand-analog-1: #1fa89e; // blue-green
+$brand-analog-2: #1f7da8; // cyan-blue
 
-$dark      : #1D1D1D;
-$dark-page : #121212;
+// --- Semantic variants built from brand ---
+$primary: $brand-main;
+$secondary: $brand-accent-blue;
+$info: $brand-tint-20;
+$positive: #2dbf7f;
+$warning: #e6b85c;
+$negative: #d9534f;
 
-$positive  : #21BA45;
-$negative  : #C10015;
-$info      : #31CCEC;
-$warning   : #F2C037;
+// --- Typography / UI helpers ---
+$brand-on-main: white; // text on primary
+$brand-border: $brand-shade-20; // subtle UI borders
+$brand-hover: $brand-shade-10; // hover background
+$brand-active: $brand-shade-20; // pressed state
+$brand-soft-bg: $brand-tint-40; // gentle backgrounds
+
+// --- Gradients ---
+$brand-gradient-soft: linear-gradient(135deg,
+        $brand-tint-20,
+        $brand-main);
+
+$brand-gradient-bold: linear-gradient(135deg,
+        $brand-main,
+        $brand-shade-30);

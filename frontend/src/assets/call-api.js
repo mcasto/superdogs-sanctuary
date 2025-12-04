@@ -1,7 +1,13 @@
 import { useStore } from "src/stores/store";
 import wretch from "wretch";
 
-export default async ({ path, method, payload, useAuth = false }) => {
+export default async ({
+  path,
+  method,
+  payload,
+  useAuth = false,
+  responseType = "json",
+}) => {
   const store = useStore();
 
   // Initialize the base request
@@ -27,9 +33,12 @@ export default async ({ path, method, payload, useAuth = false }) => {
   }
 
   // Execute the request
-  // return request[method]().json();
-
   const response = await request[method]();
+
+  // Handle different response types
+  if (responseType === "text") {
+    return response.text();
+  }
 
   return response
     .error(422, (error) => {

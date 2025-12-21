@@ -204,7 +204,8 @@
 
     <section class="content-section">
         <p>
-            We extend our deepest gratitude to the <span class="highlight">FAAN-TASTICS</span>, who are true, animal-loving
+            We extend our deepest gratitude to the <span class="highlight">FAAN-TASTICS</span>, who are true,
+            animal-loving
             humans and, yes, they know how to <span class="highlight">PAW-TY</span>! Here's the evidence and a gift for
             all of our Glamorous Gala FAAN-TASTICA guests and supporters.
         </p>
@@ -212,6 +213,40 @@
         <p>
             Special thanks to the amazing army of volunteers who worked tirelessly to create an unforgettable evening
             filled with joy, compassion, and community.
+        </p>
+
+        <p>
+            SuperDogs Matching Grant Announced through December 31st
+        </p>
+
+        <p>
+            Now, an animal-loving donor has stepped forward with a $5,000 MATCHING GRANT — and every gift made before
+            December 31st will be matched dollar for dollar.
+        <ul>
+            <li>$50 becomes $100</li>
+            <li>$100 becomes $200</li>
+            <li>$1,000 becomes $2,000</li>
+        </ul>
+
+        <p>
+            This is your moment to double your impact and help us build the FAAN SuperDogs Sanctuary — a modern, safe,
+            and
+            compassionate refuge where rescued dogs can finally thrive.
+        </p>
+
+        <p>
+            By giving today, you can also join our 🐾 Paws Circle of Benefactors, a special group of donors committed to
+            transforming the future of animal welfare in Ecuador.
+        </p>
+
+        <p>
+            👉 Give today & double your impact
+            <a href="https://www.faanecuador.org/donations">https://www.faanecuador.org/donations</a>
+        </p>
+
+        <p>
+            Together, we are not just rescuing dogs —
+            we are building hope, dignity, and second chances where UnderDogs really can become SuperDogs.
         </p>
 
         <p>

@@ -186,20 +186,20 @@
     }
 </style>
 
-<div class='flex justify-center '>
-    <div class=" column q-pa-md bg-green q-mb-xl q-mt-md">
-        <div class=" q-pa-md bg-warning flex justify-center">
-            <div class="text-h6">
-                Event postponed due to flooding at the property.
-            </div>
+<div class='flex justify-center'>
+    <div>
+        <div class="q-pa-md bg-green q-mb-xl">
+            <div class="q-pa-md bg-warning flex justify-center column">
+                <div class="text-h6">
+                    Event postponed due to flooding at the property.
+                </div>
 
-            <div class="text-body2 q-mt-sm">
-                An announcement will be made soon with the udpated date.
+                <div class="text-body2 q-mt-sm">
+                    An announcement will be made soon with the udpated date.
+                </div>
             </div>
         </div>
-    </div>
 
-    <div>
         <div class='text-h4'>
             Volunteer & Adopter Field Trip
         </div>

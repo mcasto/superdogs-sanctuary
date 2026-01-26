@@ -186,7 +186,18 @@
     }
 </style>
 
-<div class='flex justify-center'>
+<div class='flex justify-center '>
+    <div class=" column q-pa-md bg-green q-mb-xl q-mt-md">
+        <div class=" q-pa-md bg-warning flex justify-center">
+            <div class="text-h6">
+                Event postponed due to flooding at the property.
+            </div>
+
+            <div class="text-body2 q-mt-sm">
+                An announcement will be made soon with the udpated date.
+            </div>
+        </div>
+    </div>
 
     <div>
         <div class='text-h4'>
@@ -466,10 +477,10 @@
       background: transparent;
       margin-top: 0.19in;
     ">
-                👉
+                {{-- 👉
                 <font face="Times New Roman, serif"><strong style="font-weight: bold;">Register
                         <a href="https://gala-staff.web.app/enroll/faan-volunteer-adopter-field-trip">here</a></strong>
-                </font>
+                </font> --}}
             </p>
         </div>
 
